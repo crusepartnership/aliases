@@ -15,7 +15,7 @@ git clone git@github.com:luciditysoftware/aliases.git
 View the last commit against a working branch (that contains a JIRA reference)
 
 ### jira 
-Get the last JIRA reference from a working branch
+Get the last JIRA reference from a working branch (JIRA reference is copied to clipboard)
 
 ### viewjira
 Open the related JIRA from the most recent commit
