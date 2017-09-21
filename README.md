@@ -9,8 +9,9 @@ git clone git@github.com:luciditysoftware/aliases.git
 ./aliases/install.sh
 ```
 
-##Aliases
-###gitlc
+## Aliases
+
+### gitlc
 View the last commit against a working branch (that contains a JIRA reference)
 
 ### jira 
