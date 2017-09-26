@@ -11,9 +11,9 @@ echo " 💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥"
 echo "💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥💥"
 #!/bin/bash
 aliases=$(pwd)"/lucidityaliases.sh"
-if [ -f ~/.zshenv ]
+if [ -f ~/.zshrc ]
 then
-	echo "source $aliases" >> ~/.zshenv
+	echo "source $aliases" >> ~/.zshrc
 fi
 
 if [ -f ~/.bash_profile ]
