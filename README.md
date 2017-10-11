@@ -1,6 +1,7 @@
 # Aliases
 ## What is this?
-This, my friends, is a bunch of useful shell aliases that help to speed up your development.
+This, my friends, is a bunch of useful shell aliases and scripts that help to speed up your development.
+
 ## Getting Started
 Let's install!
 
@@ -9,13 +10,9 @@ git clone git@github.com:luciditysoftware/aliases.git
 ./aliases/install.sh
 ```
 
-## Aliases
+## Using
+Now that you've installed the magic, view the help to see what helpful aliases you have available
 
-### gitlc
-View the last commit against a working branch (that contains a JIRA reference)
-
-### jira 
-Get the last JIRA reference from a working branch (JIRA reference is copied to clipboard)
-
-### viewjira
-Open the related JIRA from the most recent commit
+```
+aliashelp
+```
