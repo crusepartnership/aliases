@@ -6,4 +6,5 @@ alias viewjira="jira | xargs -I{} -n1 bash -c 'open "https://integralcs.atlassia
 alias aliashelp="cat $ALIASES_DIR/help.txt"
 alias installhooks="sh $ALIASES_DIR/scripts/installhooks.sh $ALIASES_DIR/../"
 alias checkout="sh $ALIASES_DIR/scripts/checkout.sh $ALIASES_DIR/../ "
+alias cleanremote="sh $ALIASES_DIR/scripts/cleanremote.sh"
 
