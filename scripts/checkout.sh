@@ -13,6 +13,7 @@ for dir in $workingDirs;
 do
     git --git-dir=$dir/.git --work-tree=$dir fetch origin
     git --git-dir=$dir/.git --work-tree=$dir checkout $branch
+    git --git-dir=$dir/.git --work-tree=$dir pull
     rc=$?
     if [[ $rc != 0 ]]
     then

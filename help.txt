@@ -18,6 +18,9 @@ checkout <branch>
 installhooks
     Installs all .git hooks across your various repositories
 
+addauthorizedkey <user@host> <path_to_pub_key>
+    Add authorized key to remote host
+
 aliashelp
     This document
 
