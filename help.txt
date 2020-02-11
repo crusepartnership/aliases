@@ -45,6 +45,9 @@ addauthorizedkey <user@host> <path_to_pub_key>
 sshslave <spot instance id OR instance id>
     Connect via SSH to Jenkins slave
 
+sftpslave <spot instance id OR instance id>
+    Start SFTP session on Jenkins slave
+
 aliashelp
     This document
 
