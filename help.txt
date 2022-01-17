@@ -48,6 +48,11 @@ sshslave <spot instance id OR instance id>
 sftpslave <spot instance id OR instance id>
     Start SFTP session on Jenkins slave
 
+scptoci <file> <name of version directory used by your ci or staging site>
+    SCP a file to a CI site so that you don't have to wait for jenkins to build it and re-provision to a CI or staging site
+    Example: (from integral folder) scptoci README.md inetgralcs12345fixbugsandstuff
+    Correctly places files in 'vendored' directories (cruse-library/lucidity/lucidity-library), and files in integral/lucidity-config
+
 aliashelp
     This document
 
